@@ -1,0 +1,6 @@
+\frametitle{Panorama of Security \& Privacy Considerations with IoT wearables}
+
+\includegraphics[width=1\linewidth]{imgs/ASurveyofWearableDevicesandChallenges}
+
+ %  Threats to Integrity includes the cases  where attackers alter data or information without authorisation.  Threats to Availability are the situations where attackers act  to deny services to the entities who are authorised to use them.
+
