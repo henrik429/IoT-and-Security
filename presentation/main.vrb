@@ -1,6 +1,6 @@
-\frametitle{Panorama of Security \& Privacy Considerations with IoT wearables}
+\frametitle{Threats to security and privacy from accelerometer data}
 
-\includegraphics[width=1\linewidth]{imgs/ASurveyofWearableDevicesandChallenges}
-
- %  Threats to Integrity includes the cases  where attackers alter data or information without authorisation.  Threats to Availability are the situations where attackers act  to deny services to the entities who are authorised to use them.
-
+	\includegraphics[width=1\linewidth]{imgs/Privacy Implications of Accelerometer Data A Review of Possible Inferences}
+	
+	% Particularly, privacy and security risks arise from the collection and utilization of accelerometer data on smartwatches and 	fitness trackers. The accelerometer, which measures motion 	and movement, can inadvertently disclose sensitive information about an individual’s activities and behavior.
+	% This data, if not properly protected, can be accessed by unauthorized parties and potentially lead to privacy or security breaches. Safeguarding the privacy of accelerometer data is crucial to ensure the confidentiality and security of users' personal information. 	The paper by Kröger et al. \cite{b5} is predestined for exemplifying that topic, since it highlights the potential privacy implications of accelerometers and security aspects such as inferring passwords, which are commonly found in mobile devices. While accelerometers are generally considered non-intrusive and do not require special permissions, research has shown that they can be used as a side channel to infer sensitive information about device holders. Accelerometer data alone can reveal details such as location, activities, health condition, body features, gender, age, personality traits, and emotional state. It can even be used for biometric identification and reconstructing text sequences, including passwords.

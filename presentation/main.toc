@@ -3,6 +3,6 @@
 \beamer@sectionintoc {2}{Panorama of Security \& Privacy Considerations with IoT wearables}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Threats to Confidentiality}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Integrity}{11}{0}{2}
-\beamer@subsectionintoc {2}{3}{Availability}{15}{0}{2}
-\beamer@sectionintoc {3}{Threats to security and privacy from accelerometer data}{16}{0}{3}
-\beamer@sectionintoc {4}{Inferring Typed Words}{16}{0}{4}
+\beamer@subsectionintoc {2}{3}{Availability}{16}{0}{2}
+\beamer@sectionintoc {3}{Threats to security and privacy from accelerometer data}{18}{0}{3}
+\beamer@sectionintoc {4}{Inferring Typed Words}{28}{0}{4}

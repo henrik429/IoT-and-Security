@@ -28,7 +28,7 @@
 % image to be shown on the title page (without file extension, should be pdf or png)
 \titleimage{fu_500}
 
-\title[Short Paper Title] % (optional, use only with long paper titles)
+\title[Privacy and Security Threats of IoT Wearables] % (optional, use only with long paper titles)
 {Smartwatches and Fitness trackers: Cyberphysical Privacy and Security Threats}
 
 \subtitle
@@ -38,7 +38,7 @@
 {Henrik Strangalies} % F.~Author \and S.~Another
 % - Give the names in the same order as the appear in the paper.
 
-\institute[FU Berlin] % (optional, but mostly needed)
+\institute[Computer Science] % (optional, but mostly needed)
 {Freie Universität Berlin}
 % - Keep it simple, no one is interested in your street address.
 
@@ -180,16 +180,205 @@
 \begin{frame}
 
 \begin{alertblock}{Definiton}
- Threats to Availability are the situations where attackers act  to deny services to the entities who are authorised to use them.
+ Threats to Availability are the situations where attackers act  to deny services to the entities who are authorized to use them.
 \end{alertblock}
 \end{frame}
+
 
 \section{Threats to security and privacy from accelerometer data}
 
 
+\begin{frame}[fragile]{Threats to security and privacy from accelerometer data}
+	
+	\includegraphics[width=1\linewidth]{imgs/Privacy Implications of Accelerometer Data A Review of Possible Inferences}
+	
+	% Particularly, privacy and security risks arise from the collection and utilization of accelerometer data on smartwatches and 	fitness trackers. The accelerometer, which measures motion 	and movement, can inadvertently disclose sensitive information about an individual’s activities and behavior. 
+	% This data, if not properly protected, can be accessed by unauthorized parties and potentially lead to privacy or security breaches. Safeguarding the privacy of accelerometer data is crucial to ensure the confidentiality and security of users' personal information. 	The paper by Kröger et al. \cite{b5} is predestined for exemplifying that topic, since it highlights the potential privacy implications of accelerometers and security aspects such as inferring passwords, which are commonly found in mobile devices. While accelerometers are generally considered non-intrusive and do not require special permissions, research has shown that they can be used as a side channel to infer sensitive information about device holders. Accelerometer data alone can reveal details such as location, activities, health condition, body features, gender, age, personality traits, and emotional state. It can even be used for biometric identification and reconstructing text sequences, including passwords.
+\end{frame}
+
+
+\begin{frame}{Activity And Behavior Tracking}
+% Accelerometers provide valuable data for a wide range of applications and can derive various physical activity variables and behavior-related information.
+\begin{itemize}
+	\item Accelerometers are used in step counters to estimate \textbf{energy expenditure} and \textbf{distance walked}, and in medical studies to assess \textbf{sedentary time and physical activity}.
+	\item They enable real-time \textbf{body posture} and \textbf{activity
+	classification}, including basic activities like running, walking,
+	and sitting, as well as more complex activities like writing,
+	typing, and painting. 
+	\item They can also monitor \textbf{sleep patterns
+	and behaviors}. 
+	\item They can detect \textbf{hand 	gestures, eating and drinking moments, smoking, and even
+	distinguish levels of intoxication}. 
+	\item They have been used to detect \textbf{carried loads and estimate carried weight}, \textbf{measure driving behavior}, \textbf{analyze speech activity} and \textbf{social interactions}, and
+	\textbf{reconstruct speech from recorded vibrations}. 
+	%\item It has been observed that researchers were able to detect aggressive or 	unsafe driving styles and drunk driving patterns. 
+ 	% The potential applications of accelerometers are vast and extend to various	domains such as healthcare, fitness tracking, and behavior 	analysis [5].
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Location Tracking}
+\begin{itemize}
+	\item Studies have demonstrated that accelerometers in mobile
+	devices can be utilized for \textbf{user localization and reconstruction
+	of travel trajectories}, even in the absence of GPS or other localization systems.
+	\item Researchers have achieved \textbf{geographically tracking individuals driving a car} solely based on accelerometer readings from their smartphones.
+%  By analyzing three-axis acceleration measurements and mapping them to existing 	routes on a map, they obtained trajectory information with accuracy comparable to handheld GPS devices. 
+	\item Another study focused on using smartphone accelerometers to determine the \textbf{location of the user within a metropolitan train system}. 
+	%By comparing acceleration patterns with labeled training data, specific station intervals were recognized, and the accuracy	of the approach reached up to 89% for rides longer than 3 stations and 92% for rides longer than 5 stations. These 	findings highlight the potential privacy risks associated with 	accelerometer data and the ability to infer sensitive information about individuals’ whereabouts and travel patterns [5].
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{User Identification}
+\begin{itemize}
+	\item Ability to differentiate between and uniquely identify users
+	\textbf{based on their body movement patterns}. 
+	\item Biometric features such as \textbf{gait, hand gestures, and head movements}  have been used for user identification with high
+	accuracy. % For example, one study achieved 100% accuracy in recognizing individuals from a test group using accelerometer readings from smartphones. 
+	\item Capability distinguish between different speakers accurately by sound vibrations, including human speech, with enough quality to .
+	\item The trajectory of a mobile device can reveal a \textbf{user’s work and home addresses}. 
+	\item When combined with other auxiliary datasets, such as white pages
+	or employment directories, it can potentially expose a user’s
+	real identity.
+	%\item Device fingerprinting techniques can further differentiate users based on unique characteristics of their personal devices. 
+	\item Calibration errors in accelerometers %, caused by manufacturing imperfections,
+	have been found sufficient to create a device ”fingerprint” that can track users across website visits, even when other tracking technologies like cookies are
+	blocked.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Keystroke Logging}
+  \begin{itemize}
+  	\item The input that users type into their devices, whether through touchscreens or keyboards, often contains highly sensitive information such as text messages, personal notes, login credentials, and transaction details. 
+  	% Researchers have shown that motion sensor data can be used to reconstruct user inputs from handheld and wrist-worn devices.
+  	%By analyzing the hand movements associated with swipes, taps, and keystrokes, researchers have successfully inferred inputs from motion sensor data. 
+  	\item Researchers have demonstrated to infer tap- and gesture-based inputs, including \textbf{PINs and graphical password patterns}. 
+  	\item Entire sequences of text entered through a phone’s touchscreen have been obtained using accelerometer data. 
+  	%\item The fact that even multi-sensor attacks predominantly use acceleration information for tap detection highlights the importance of focusing on defense mechanisms against these types of side-channel attacks, particularly in relation to accelerometers
+  	\pause
+  	\item \alert{Later we will talk about a paper that particularly facing the topic of inferring typed words.}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Inference of Health Parameters and Body Features}
+\begin{itemize}
+	%Body-worn accelerometers provide valuable insights into a person’s physical characteristics and health status. 
+	\item By analyzing accelerometer data from smartphones, researchers have
+	been able to approximate  \textbf{users’ body weight and height}.
+	% \item There is a strong correlation between accelerometer-determined	physical activity and obesity, making physical activity a recognized \textbf{indicator of health}. 
+	\item The amount of physical activity can reveal information about \textbf{latent chronic diseases, mobility, cognitive function, and even the risk of mortality}.
+	\item Accelerometer data allows for the derivation of various
+	activity-related variables such as \textbf{energy expenditure, activity type, and temporal activity patterns}.
+	% These variables are 	increasingly used in health studies to remotely assess participants’ physical activity levels. 
+	\item Sleep duration is anotherimportant factor in population health, and accelerometers in	wearable devices have been utilized to evaluate \textbf{sleep patterns, fragmentation, and efficiency}. 
+	\item Specialized accelerometers have been employed to measure additional health parameters, including \textbf{voice health, postural stability, and physiological sound}. 
+	% The versatility of accelerometers makes them valuable in monitoring various 	aspects of an individual’s well-being and can aid in healthcare	research and personalized healthcare management [5].
+\end{itemize}.
+\end{frame}
+
+
+\begin{frame}{Inference of Demographics}
+ \begin{itemize}
+	\item Data from body-worn accelerometers can be used to estimate demographic variables such as \textbf{age and gender}.  
+	%Gait features, including step length, velocity, and step timing variability,	vary between younger and older subjects. 	
+	%Hip movements, gait features, and 	physical activity patterns derived from accelerometers can be 	used to estimate the sex of individuals.
+	\item Differences in \textbf{walking smoothness} between adults and children
+	can be detected through accelerometer readings. 
+%	\item 	Using smartphone accelerometer data, researchers have achieved a 92.5\% success	rate in predicting the \textbf{age interval} of test subjects based on their	smartphone holding and touching behaviors.
+	\item  Notably, accelerometer-based gender recognition can work independently of a person’s weight and height. 
+	\item Additionally, acoustic vibrations captured
+	through a smartphone accelerometer can be used to classify
+	speakers as male or female with high accuracy.
+ \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Mood and Emotion Recognition}
+	\begin{itemize}
+		\item Physical activity, as measured by body-worn accelerometers, has been linked to human emotions and depressive moods. 
+		\item Researchers have used accelerometer data from smart
+		wristbands to recognize emotional states, such as \textbf{happiness,
+		neutrality, and anger}, with fair accuracy.
+		\item  Accelerometers in smartphones have been employed to detect \textbf{stress levels and arousal in users}. 
+		\item Additionally, there is a positive association between accelerometer-derived s\textbf{peech activity and mood changes}.
+	\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Inference of Personality Traits}
+	\begin{itemize}
+ 		\item Methods have been developed to infer \textbf{preferences and
+ 		personality traits} based on body gestures and motion patterns
+ 		captured by accelerometers. 
+ 		\item Wearable accelerometers were
+ 		used to estimate the \textbf{motivations, interests, and group affiliations} of study participants during social interactions, relying
+ 		on their movements, body postures, and gesturing patterns.
+ 		
+ 		\item % Furthermore, a person’s level of physical activity, which can be measured using body-worn accelerometers, has been found to correlate with specific personality traits.
+ 		Studies have shown that \textbf{conscientiousness, neuroticism, openness, and
+ 		extraversion} are associated with different levels of physical
+ 		activity. %For example, it has been found that agreeableness, 		conscientiousness, and extraversion were positively correlated with higher step counts and physical activity variables, whileneuroticism showed a negative association.
+ 		\item Moreover, it has been discovered that neuroticism and the functioning of the
+ 		behavioral inhibition system were related to physical activity
+ 		measures derived from accelerometer data in female college
+ 		students.
+	\end{itemize}
+\end{frame}
+
 
 \section{Inferring Typed Words}
 
+\begin{frame}{Inferring Typed Words}
+	\includegraphics[width=1\linewidth]{imgs/MoLePaper}
+\end{frame}
+
+
+\begin{frame}
+ \begin{itemize}
+ 	\item The paper highlights the significant ramifications
+ 	of such data leakage, as smartwatches can be camouflaged
+ 	as activity trackers, thereby compromising the privacy of a
+ 	\textbf{user’s emails, search queries, and other documents typed} on
+ 	the keyboard. 
+ 	
+ 	%Given the importance of addressing privacy and  	security risks associated with accelerometer data, this paper  	has been selected for further investigation and analysis.
+ 	\item %Unlike keystroke loggers that need to find loopholes in the 	operating system, 
+ 	The activity tracker malware can obtain the	user’s permission and easily launch a side channel attack. 	
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Assumptions and Constraints}
+	\begin{itemize}
+		\item Smartwatch is worn on the left hand.
+		\item The absence of data from the right hand is a unique constraint, and so it needs to infer which finger	executed the key-press.
+		\item For a given position of the wrist watch, it is not obvious which one of the 3 or 4 different keys could have been pressed, which could be further interspersed by unknown number of keys pressed by the right hand. 
+		\item Users write different with dexterity, e.g. some use their little
+		finger far less efficiently while others use specific fingers when
+		it comes to digits or corner keys.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Data Collection}
+	Inhalt...
+	
+		Two authors put on Samsung Gear Live
+	smart watches and typed 500 words each wearing the smart
+	watch on their left wrist. The accelerometer and gyroscope
+	data is used as training data, and processed through a sequence
+	of steps, including key-press detection, hand-motion tracking,
+	character point cloud computation, and Bayesian modeling and
+	inference. The test data was collect by 8 different volunteers
+	who were asked to type 300 different English words from a
+	dictionary. The smart-watch sensor data from the volunteers
+	was used to create a short-lists K words, ranked in the
+	decreasing order of probability (i.e., the first ranked word is
+	considered the most probable guess) [3].
+	
+\end{frame}
 
 
 \section*{Summary}
