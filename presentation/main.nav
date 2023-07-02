@@ -9,7 +9,7 @@
 \headcommand {\beamer@framepages {3}{4}}
 \headcommand {\beamer@sectionpages {3}{4}}
 \headcommand {\beamer@subsectionpages {3}{4}}
-\headcommand {\sectionentry {2}{Panorama of Security \& Privacy Considerations with IoT wearables}{5}{Panorama of Security \& Privacy Considerations with IoT wearables}{0}}
+\headcommand {\sectionentry {2}{Panorama of Security and Privacy Considerations with IoT wearables}{5}{Panorama of Security and Privacy Considerations with IoT wearables}{0}}
 \headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
@@ -100,32 +100,36 @@
 \headcommand {\beamer@framepages {43}{43}}
 \headcommand {\slideentry {4}{0}{15}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {4}{0}{16}{45/46}{}{0}}
-\headcommand {\beamer@framepages {45}{46}}
-\headcommand {\slideentry {4}{0}{17}{47/48}{}{0}}
+\headcommand {\slideentry {4}{0}{16}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {4}{0}{17}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {4}{0}{18}{47/48}{}{0}}
 \headcommand {\beamer@framepages {47}{48}}
-\headcommand {\beamer@sectionpages {30}{48}}
-\headcommand {\beamer@subsectionpages {30}{48}}
-\headcommand {\sectionentry {5}{Summary}{49}{Summary}{0}}
-\headcommand {\slideentry {5}{0}{1}{49/49}{}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\gdef \insertmainframenumber {45}}
+\headcommand {\slideentry {4}{0}{19}{49/50}{}{0}}
+\headcommand {\beamer@framepages {49}{50}}
+\headcommand {\beamer@sectionpages {30}{50}}
+\headcommand {\beamer@subsectionpages {30}{50}}
+\headcommand {\sectionentry {5}{Summary}{51}{Summary}{0}}
+\headcommand {\slideentry {5}{0}{1}{51/51}{}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\gdef \insertmainframenumber {47}}
 \headcommand {\partentry {Appendix}{1}}
-\headcommand {\beamer@partpages {1}{49}}
-\headcommand {\beamer@sectionpages {49}{49}}
-\headcommand {\beamer@subsectionpages {49}{49}}
-\headcommand {\beamer@appendixpages {50}}
-\headcommand {\beamer@sectionpages {50}{49}}
-\headcommand {\beamer@subsectionpages {50}{49}}
-\headcommand {\sectionentry {6}{Appendix}{50}{Appendix}{1}}
-\headcommand {\beamer@subsectionpages {50}{49}}
-\headcommand {\beamer@subsectionentry {1}{6}{1}{50}{For Further Reading}}
-\headcommand {\slideentry {6}{1}{1}{50/50}{For Further Reading}{1}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {6}{1}{1}{50/51}{For Further Reading}{1}}
-\headcommand {\beamer@framepages {50}{51}}
-\headcommand {\beamer@partpages {50}{51}}
-\headcommand {\beamer@subsectionpages {50}{51}}
-\headcommand {\beamer@sectionpages {50}{51}}
-\headcommand {\beamer@documentpages {51}}
-\headcommand {\gdef \inserttotalframenumber {47}}
+\headcommand {\beamer@partpages {1}{51}}
+\headcommand {\beamer@sectionpages {51}{51}}
+\headcommand {\beamer@subsectionpages {51}{51}}
+\headcommand {\beamer@appendixpages {52}}
+\headcommand {\beamer@sectionpages {52}{51}}
+\headcommand {\beamer@subsectionpages {52}{51}}
+\headcommand {\sectionentry {6}{Appendix}{52}{Appendix}{1}}
+\headcommand {\beamer@subsectionpages {52}{51}}
+\headcommand {\beamer@subsectionentry {1}{6}{1}{52}{For Further Reading}}
+\headcommand {\slideentry {6}{1}{1}{52/52}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {6}{1}{1}{52/53}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {52}{53}}
+\headcommand {\beamer@partpages {52}{53}}
+\headcommand {\beamer@subsectionpages {52}{53}}
+\headcommand {\beamer@sectionpages {52}{53}}
+\headcommand {\beamer@documentpages {53}}
+\headcommand {\gdef \inserttotalframenumber {49}}

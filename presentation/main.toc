@@ -1,6 +1,6 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Panorama of Security \& Privacy Considerations with IoT wearables}{5}{0}{2}
+\beamer@sectionintoc {2}{Panorama of Security and Privacy Considerations with IoT wearables}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Threats to Confidentiality}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Threats to Integrity}{11}{0}{2}
 \beamer@subsectionintoc {2}{3}{Threats to Availability}{17}{0}{2}
