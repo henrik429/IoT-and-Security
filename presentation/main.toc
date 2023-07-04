@@ -1,8 +1,8 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Panorama of Security and Privacy Considerations with IoT wearables}{5}{0}{2}
+\beamer@sectionintoc {2}{Panorama of security and privacy considerations with IoT wearables}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Threats to Confidentiality}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Threats to Integrity}{11}{0}{2}
-\beamer@subsectionintoc {2}{3}{Threats to Availability}{17}{0}{2}
-\beamer@sectionintoc {3}{Threats to security and privacy from accelerometer data}{20}{0}{3}
-\beamer@sectionintoc {4}{Inferring Typed Words}{30}{0}{4}
+\beamer@subsectionintoc {2}{2}{Threats to Integrity}{9}{0}{2}
+\beamer@subsectionintoc {2}{3}{Threats to Availability}{12}{0}{2}
+\beamer@sectionintoc {3}{Threats to security and privacy from accelerometer data}{15}{0}{3}
+\beamer@sectionintoc {4}{Inferring typed words on keyboard using accerlerometer and gyroscope data}{25}{0}{4}

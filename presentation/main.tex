@@ -1,4 +1,4 @@
-\documentclass[ucs,9pt]{beamer}
+\documentclass[ucs,9pt,usenames,dvipsnames]{beamer}
 
 % Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
 %
@@ -18,6 +18,7 @@
 % remove this line and the "ucs" option to the documentclass when your editor is not utf8-capable
 \usepackage[utf8x]{inputenc}    % to make utf-8 input possible
 \usepackage[english]{babel}     % hyphenation etc., alternatively use 'german' as parameter
+\usepackage{xcolor} 
 
 \include{fu-beamer-template}  % THIS is the line that includes the FU template!
 
@@ -28,11 +29,11 @@
 % image to be shown on the title page (without file extension, should be pdf or png)
 \titleimage{fu_500}
 
-\title[Privacy and Security Threats of IoT Wearables] % (optional, use only with long paper titles)
+\title[Privacy \& Security Threats of IoT Wearables] % (optional, use only with long paper titles)
 {Smartwatches and Fitness trackers: Cyberphysical Privacy and Security Threats}
 
 \subtitle
-{IoT and Security}
+{IoT \& Security}
 
 \author[Author, Another] % (optional, use only with lots of authors)
 {Henrik Strangalies} % F.~Author \and S.~Another
@@ -54,7 +55,7 @@
 
 % you can redefine the text shown in the footline. use a combination of
 % \insertshortauthor, \insertshortinstitute, \insertshorttitle, \insertshortdate, ...
-\renewcommand{\footlinetext}{\insertshortinstitute, \insertshorttitle, \insertshortdate}
+\renewcommand{\footlinetext}{\insertshortinstitute, \insertsubtitle, \insertshorttitle }
 
 % Delete this, if you do not want the table of contents to pop up at
 % the beginning of each subsection:
@@ -99,16 +100,16 @@
   
   \item  Along with these benefits, wearables bring forth security and privacy concerns:
   \begin{itemize}
-	\item \textbf{Data Collection.}
-	\item \textbf{Data Transfer} between wearable device and phone.
+	\item Massive \textbf{data collection.}
+	\item \textbf{Data transfer} between wearable device and phone.
 	\item Applications of \textbf{third-party companies}.
-	\item Location-based threats.
+	%\item Location-based threats.
   \end{itemize}
   \end{itemize}
 \end{frame}
 
 
-\section{Panorama of Security and Privacy Considerations with IoT wearables}
+\section{Panorama of security and privacy considerations with IoT wearables}
 
 \begin{frame}[fragile]{Panorama of Security and Privacy Considerations with IoT wearables}
 
@@ -121,14 +122,31 @@
 
 \begin{frame}{Confidentiality}
 	\begin{alertblock}{Definition}
-	Threats to Confidentiality encompasses those where attackers get unauthorised  access to information using techniques such as eavesdropping  the wireless channel.	
+	Threats to Confidentiality involves
+	the scenarios where attackers get unauthorised access
+	to information using techniques such as eavesdropping the
+	wireless channel. 
 	\end{alertblock}
 	
-	% 	Most existing wearable devices use Bluetooth Low Energy (BLE) as the major means of communication.
 	
 	
 \end{frame}
 
+\begin{frame}{Attacks to Confidentiality}
+	\begin{itemize}
+		\item Most existing wearable devices use Bluetooth Low Energy (BLE) as the major means of communication.
+		\item BLE equipped 	wearable devices have been reported to be vulnerable to attacks that impact the confidentiality such as eavesdropping and traffic analysis.
+		
+		\item \textbf{Eavesdropping} is the unauthorized real-time interception of a private communication which can expose user’s personal information to an attacker.
+		
+		\item \textbf{Traffic analysis attacks} in the context of wearables involve monitoring communication patterns between devices.
+		
+	\item \textbf{Information gathering attacks} include passive monitoring of wearable device transmissions enables adversaries to collect data exchanged between wearables and their hubs. 
+	\end{itemize}
+\end{frame}
+
+
+\iffalse
 \begin{frame}{Eavesdropping}
 	\begin{itemize}
 		\item Eavesdropping is the \textbf{unauthorized real-time interception of a private communication} which can expose user’s personal information to an attacker.
@@ -151,16 +169,23 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Information Gathering Attacks.}
+\begin{frame}{Information Gathering Attacks}
 	\begin{itemize}
 		\item Passive monitoring of wearable device transmissions enables adversaries to \textbf{collect data} exchanged between wearables and their hubs. 
-		\item This information can be used for information gathering attacks, including breaking key exchanges in Bluetooth Low Energy (BLE) pairing and gathering information about user's other devices. 
-		\item Researchers have demonstrated attacks that break BLE legacy pairing, \textbf{infer keystrokes} on smartphone touchpads using smartwatch motion sensors, decode keystrokes on keyboards using smartwatch sensors, and\textbf{ infer a user's personal PIN sequence} using wearable devices.
+		%\item This information can be used for information gathering attacks, including breaking key exchanges in Bluetooth Low Energy (BLE) pairing and gathering information about user's other devices. 
+		\item Researchers have demonstrated attacks that they were able to:
+		\begin{itemize}
+			\item \textbf{Break BLE legacy pairing.}
+			\item \textbf{Infer keystrokes} on smartphone touchpads using smartwatch motion sensors.
+			\item \textbf{Decode keystrokes} on keyboards using smartwatch sensors.
+			\item \textbf{Infer a user's personal PIN sequence} using wearable devices.
+		\end{itemize} 
+		
 		\item Adversaries can gain access to smartwatches by installing malicious applications to record sensor activities. 
 		%\item These attacks leverage sensor data captured by wearables and can be executed by sniffing BLE communications or installing malicious apps on wearables.
 	\end{itemize}
 \end{frame}
-
+\fi
 
 \subsection{Threats to Integrity}
 
@@ -170,16 +195,28 @@
 		Threats to Integrity includes the cases  where attackers alter data or information without authorisation. 
 	\end{alertblock}
 	
+	
+\end{frame}
+
+\begin{frame}{Attacks to Integrity}
 	%Integrity is a crucial security requirement for wearable systems, particularly due to the sensitivity and privacy of the collected data. 	
 	%Ensuring that data remains unaltered during transmission and reaches only authorized parties is paramount.	 
 	%Various studies in the literature have evaluated the integrity of 		wearable device systems, identifying vulnerabilities in three attack categories: Modification Attacks, Replay Attacks, and Masquerade Attacks [1]. Additionally, this section comprises an overview of possible data breaches.
+	
+	\begin{itemize}
+		\item \textbf{Modification attacks:} Adversaries can intercept and modify data exchanged between wearable devices, including changing packet content and timestamps.
+		
+		\item  In \textbf{replay attacks}, adversaries capture valid data packets uploaded by a wearable device and replay them for malicious purposes such as impersonation or data corruption.
+		
+		\item \textbf{Masquerade attacks} involve impersonating an authenticated device to steal data or inject fake information.
+	\end{itemize}
 \end{frame}
 
 
-
+\iffalse
 \begin{frame}{Modification Attacks}
 	\begin{itemize}
-		\item Adversaries can intercept and modify data exchanged between wearable devices, \textbf{including changing packet content and timestamps}.
+		\item Adversaries can \textbf{intercept and modify data exchanged between wearable devices}, including changing packet content and timestamps.
 		\item Vulnerabilities have been found in Bluetooth LE pairing, fitness data storage, and transmission in popular trackers such as \textbf{FitBit and Garmin}.
 		% Attackers can exploit these vulnerabilities to capture, modify, and inject data. 
 		\item Timestamp integrity in healthcare devices has also been compromised, allowing attackers to \textbf{tamper with medical data}.
@@ -207,11 +244,10 @@
 \end{frame}
 
 
-
-
 \begin{frame}{Data Breaches}
 	\begin{itemize}
 		%Wearable manufacturers commonly offer companion mobile applications that can be installed on smartphones to enhance the functionality and user experience of the wearable devices. These applications serve as a communication interface between the wearable device and the smartphone, allowing users to access and interact with a wide range of features and data. 
+		
 		\item The massive data collection provides users with \textbf{plenty features} to track theirs health, but can lead to \textbf{data breaches}.
 		
 		\item Smartwatches and fitness trackers can monitor physiological parameters like distance walked or run using motion sensors and GPS, heart rate, ECG, stress levels, sleep quality, and more.
@@ -221,12 +257,10 @@
 		
 		\item It has been shown that the identification of various activities such as \textbf{stationary behavior, walking, running, bicycling, stair climbing, descent, and driving} was achieved solely through the utilization of accelerometer data. 	
 			
-		\item Information pertaining to sleep, including \textbf{sleep posture, habits hand position during sleep} has been successfully extracted using accelerometer, gyroscope, and orientation data from a smartwatch. 
-				
-		
+		\item Information pertaining to sleep, including \textbf{sleep posture, habits hand position during sleep} has been successfully extracted using accelerometer, gyroscope, and orientation data from a smartwatch. 	
 	\end{itemize}
 \end{frame}
-
+\fi
 
 \subsection{Threats to Availability}
 
@@ -237,14 +271,14 @@
 	\end{alertblock}
 \end{frame}
 
-\begin{frame}{Threats to Availability}
+\begin{frame}{Attacks to Availability}
 	\begin{itemize}
-		\item Denial of Service (DoS) attacks are a common type of attack against \textbf{availability in wearable devices}. 
-		\item They aim to disrupt communication between wearables and their base or overwhelm the device's storage capacity with useless information. 
+		%\item Denial of Service (DoS) attacks are a common type of attack against \textbf{availability in wearable devices}. 
+		%\item They aim to disrupt communication between wearables and their base or overwhelm the device's storage capacity with useless information. 
 		%Examples of such attacks have been documented in the research literature.
 		\item For instance, the FitBit Charge tracker can be targeted with DoS attacks to \textbf{prevent legitimate device syncing or pairing} with mobile phones.
 		\item Attack tools like Fitbite and GarMax have been used to inject fake data, \textbf{exceeding the storage capacity of trackers}, thereby preventing them from recording valid user data.
-		\item These attacks can \textbf{drain the batter}y by continuously querying the nearby trackers. 
+		\item These attacks can \textbf{drain the battery} by continuously querying the nearby trackers. 
 		%It is important for manufacturers to address these implementation shortcomings in future wearable products, especially in critical healthcare devices like insulin pumps that require uninterrupted functionality. Continuous vigilance and vulnerability assessments are crucial to ensure the availability of wearable systems \cite{b1}
 	\end{itemize}
 \end{frame}
@@ -259,22 +293,25 @@
 	\includegraphics[width=1\linewidth]{imgs/Privacy Implications of Accelerometer Data A Review of Possible Inferences}
 	
 	% Particularly, privacy and security risks arise from the collection and utilization of accelerometer data on smartwatches and 	fitness trackers. The accelerometer, which measures motion 	and movement, can inadvertently disclose sensitive information about an individual’s activities and behavior. 
-	% This data, if not properly protected, can be accessed by unauthorized parties and potentially lead to privacy or security breaches. Safeguarding the privacy of accelerometer data is crucial to ensure the confidentiality and security of users' personal information. 	The paper by Kröger et al. \cite{b5} is predestined for exemplifying that topic, since it highlights the potential privacy implications of accelerometers and security aspects such as inferring passwords, which are commonly found in mobile devices. While accelerometers are generally considered non-intrusive and do not require special permissions, research has shown that they can be used as a side channel to infer sensitive information about device holders. Accelerometer data alone can reveal details such as location, activities, health condition, body features, gender, age, personality traits, and emotional state. It can even be used for biometric identification and reconstructing text sequences, including passwords.
+	% This data, if not properly protected, can be accessed by unauthorized parties and potentially lead to privacy or security breaches. Safeguarding the privacy of accelerometer data is crucial to ensure the confidentiality and security of users' personal information. The paper by Kröger et al. \cite{b5} is predestined for exemplifying that topic, since it highlights the potential privacy implications of accelerometers and security aspects such as inferring passwords, which are commonly found in mobile devices. While accelerometers are generally considered non-intrusive and do not require special permissions, research has shown that they can be used as a side channel to infer sensitive information about device holders. Accelerometer data alone can reveal details such as location, activities, health condition, body features, gender, age, personality traits, and emotional state. It can even be used for biometric identification and reconstructing text sequences, including passwords.
 \end{frame}
 
 
-\begin{frame}{Activity And Behavior Tracking}
+\begin{frame}{Activity and Behavior Tracking}
 % Accelerometers provide valuable data for a wide range of applications and can derive various physical activity variables and behavior-related information.
 \begin{itemize}
 	\item Accelerometers are used in step counters to estimate \textbf{energy expenditure} and \textbf{distance walked}, and in medical studies to assess \textbf{sedentary time and physical activity}.
-	\item They enable real-time \textbf{body posture} and \textbf{activity
-	classification}, including basic activities like running, walking,
-	and sitting, as well as more complex activities like writing,
-	typing, and painting. 
+	\item They enable real-time body posture and activity
+	classification, including basic activities like \textbf{running, walking,
+	and sitting}, as well as more complex activities like \textbf{writing,
+	typing, and painting}. 
 	\item They can also monitor \textbf{sleep patterns
 	and behaviors}. 
 	\item They can detect \textbf{hand 	gestures, eating and drinking moments, smoking, and even
 	distinguish levels of intoxication}. 
+	\item Researchers were able to distinguish \textbf{sober walk}
+	from \textbf{intoxicated walk} and to estimate \textbf{blood alcohol
+	content} as well as the \textbf{number of drinks consumed}.
 	\item They have been used to detect \textbf{carried loads and estimate carried weight}, \textbf{measure driving behavior}, \textbf{analyze speech activity} and \textbf{social interactions}, and
 	\textbf{reconstruct speech from recorded vibrations}. 
 	%\item It has been observed that researchers were able to detect aggressive or 	unsafe driving styles and drunk driving patterns. 
@@ -304,20 +341,17 @@
 	accuracy. % For example, one study achieved 100% accuracy in recognizing individuals from a test group using accelerometer readings from smartphones. 
 	\item Capability to distinguish between different speakers accurately by sound vibrations, including human speech.
 	\item The trajectory of a mobile device can reveal a \textbf{user’s work and home addresses}. 
-	\item When combined with other auxiliary datasets, such as white pages
-	or employment directories, it can potentially expose a user’s
-	real identity.
+	%\item When combined with other auxiliary datasets, such as white pages 	or employment directories, it can potentially expose a user’s 	real identity.
 	%\item Device fingerprinting techniques can further differentiate users based on unique characteristics of their personal devices. 
 	\item Calibration errors in accelerometers %, caused by manufacturing imperfections,
-	have been found sufficient to create a device ”fingerprint” that can track users across website visits, even when other tracking technologies like cookies are
-	blocked.
+	have been found sufficient to \textbf{uniquely	identify their encapsulating device} so that users can be tracked across website visits, even when private browsing is activated or when other tracking technologies like cookies are	blocked.
 \end{itemize}
 \end{frame}
 
 
 \begin{frame}{Keystroke Logging}
   \begin{itemize}
-  	\item The input that users type into their devices, whether through touchscreens or keyboards, often contains highly sensitive information such as text messages, personal notes, login credentials, and transaction details. 
+  	\item The input that users type into their devices, whether through touchscreens or keyboards, often contains highly sensitive information such as \textbf{text messages, personal notes, login credentials, and transaction details}. 
   	% Researchers have shown that motion sensor data can be used to reconstruct user inputs from handheld and wrist-worn devices.
   	%By analyzing the hand movements associated with swipes, taps, and keystrokes, researchers have successfully inferred inputs from motion sensor data. 
   	\item Researchers have demonstrated to infer tap- and gesture-based inputs, including \textbf{PINs and graphical password patterns}. 
@@ -336,13 +370,12 @@
 	been able to approximate  \textbf{users’ body weight and height}.
 	% \item There is a strong correlation between accelerometer-determined	physical activity and obesity, making physical activity a recognized \textbf{indicator of health}. 
 	\item The amount of physical activity can reveal information about \textbf{latent chronic diseases, mobility, cognitive function, and even the risk of mortality}.
-	\item Accelerometer data allows for the derivation of various
-	activity-related variables such as \textbf{energy expenditure, activity type, and temporal activity patterns}.
+	%\item Accelerometer data allows for the derivation of various	activity-related variables such as \textbf{energy expenditure, activity type, and temporal activity patterns}.
 	% These variables are 	increasingly used in health studies to remotely assess participants’ physical activity levels. 
 	\item Sleep duration is another important factor in population health, and accelerometers in	wearable devices have been utilized to evaluate \textbf{sleep patterns, fragmentation, and efficiency}. 
 	\item Specialized accelerometers have been employed to measure additional health parameters, including \textbf{voice health, postural stability, and physiological sound}. 
 	% The versatility of accelerometers makes them valuable in monitoring various 	aspects of an individual’s well-being and can aid in healthcare	research and personalized healthcare management [5].
-\end{itemize}.
+\end{itemize}
 \end{frame}
 
 
@@ -396,21 +429,20 @@
 \end{frame}
 
 
-\section{Inferring Typed Words}
+\section{Inferring typed words on keyboard using accerlerometer and gyroscope data}
 
-\begin{frame}{Inferring Typed Words}
+\begin{frame}{Inferring typed words on keyboard using accerlerometer and gyroscope data}
 	\includegraphics[width=1\linewidth]{imgs/MoLePaper}
 \end{frame}
 
 
 \begin{frame}{Motivation}
  \begin{itemize}
- 	\item The paper highlights the significant ramifications
- 	of such data leakage, as smartwatches  \textbf{can be camouflaged
- 	as activity trackers}.
+ 	\item Imagine a user typing on a laptop keyboard while wearing a 	smart watch. 
+ 	\item This paper asks whether motion sensors from the
+ 	watch can leak information about what the user is typing.
  	\item Thereby compromising the privacy of a
- 	\textbf{user’s emails, search queries, and other documents typed} on
- 	the keyboard. 
+ 	\textbf{user’s emails, search queries, personal notes and other documents typed} on the keyboard. 
  	
  	%Given the importance of addressing privacy and  	security risks associated with accelerometer data, this paper  	has been selected for further investigation and analysis.
  	\item %Unlike keystroke loggers that need to find loopholes in the 	operating system, 
@@ -429,25 +461,22 @@
 	\end{itemize}
 \end{frame}
 
+
+\iffalse
 \begin{frame}{Data Collection}
 	\begin{itemize}
-		\item \textbf{Training data:} Two authors put on Samsung Gear Live
+		\item For \textbf{training data} two authors put on Samsung Gear Live
 		smart watches and typed 500 words recording the accerlerometer and gyroscope data.
-		\item The training data is processed through a sequence of steps, including key-press detection, hand-motion tracking,
-		character point cloud computation, and Bayesian modeling and
-		inference. % We will discuss later
-		\item The \textbf{test data} was collect by 8 different volunteers
+		%\item The training data is processed through a sequence of steps, including key-press detection, hand-motion tracking, character point cloud computation, and Bayesian modeling and inference. % We will discuss later
+		\item The \textbf{test data} was collected by 8 different volunteers
 		who were asked to type 300 different English words from a
 		dictionary.
-		\item The smart-watch sensor data from the volunteers
-		was used to create a short-lists $K$ words, ranked in the
-		decreasing order of probability (i.e., the first ranked word is
-		considered the most probable guess.
+		%\item The smart-watch sensor data from the volunteers		was used to create a short-lists $K$ words, ranked in the		decreasing order of probability (i.e., the first ranked word is		considered the most probable guess.
 	\end{itemize}	
 \end{frame}
+\fi
 
-
-\begin{frame}{Collection Procedure}
+\begin{frame}{Procedure of the data collection} 
 	
 \begin{minipage}[c]{0.49\linewidth}
 \includegraphics[width=\textwidth]{imgs/watchMovement}
@@ -485,14 +514,12 @@ Figures are taken from \cite{b1}.
 	\end{figure}
 	
 	% Figure \ref{moleOverview} illustrates the flow of operations in the end to end MoLe 	system. At the backend server, the attacker types each character 	 	on a computer keyboard multiple times and computes a character point cloud (CPC) similar to the one in Figure \ref{displacement}. The operation is performed offline, and is stored separately for use later.
-	
 	%The process of decoding the raw sensor data involves passing it through a module called %"Keystroke Detection", which has two tasks. Firstly, it detects the timing of each keystroke by analyzing the $Z$ axis of the sensor data, where a negative dip in the $Z$ axis corresponds to a key press. Secondly, it computes the net 2D displacement of the watch by processing the signal through several steps, including gravity and mean removal, double integration, and Kalman Filtering. The output of this module is a set of tuples representing the estimated location of the watch at the time of each key press. These tuples form an unlabeled point cloud (UPC) on a 2D plane. The UPC is then passed to the "Cloud Fitting" module, which assigns approximate labels to the points by scaling and rotating the convex hull of a previously computed character point cloud (CPC) to best fit the convex hull of the UPC. This rotated and scaled CPC serves as the reference template for decoding the unlabeled points in the UPC. 
 	
 	%The \enquote{Cloud Fitting} module receives the UPC and its primary responsibility is to provide estimated labels for the points in the UPC. To achieve this, the module uses the previously computed CPC and adjusts the scaling and rotation of the CPC's convex hull to match the convex hull of the UPC as closely as possible. The resulting rotated and scaled CPC serves as a reference template for identifying the characters corresponding to the unlabeled points in the UPC
 	
 	%The \enquote{Bayesian Inference} module takes in three inputs: (1) the template output from Cloud Fitting, (2) the unlabeled points from the UPC, and (3) a dictionary $W$ of valid English words. For each valid word $w_i$ in the dictionary, the module computes the a posteriori probability that the unlabeled points form $w_i$. This is done by computing the probability that each unlabeled point corresponds to a specific character in the word. The product of these probabilities is the final probability that the unlabeled points form the word $w_i$. The module computes this probability for each word $w_i$ and outputs a ranked list of $\textless$word, probability$\textgreater$ tuples as a guess of the user-typed word.
-	%If the input is a password, the attacker can try out all the guesses above some probability threshold. If the input is an email or a search query, the attacker could manually try to decode the text from the possible sets of words. Even though MoLe does not offer a single suggestion, the probability estimate associated with each guess dramatically reduces the search space for the attacker.	
-	
+	% If the input is a password, the attacker can try out all the guesses above some probability threshold. If the input is an email or a search query, the attacker could manually try to decode the text from the possible sets of words. Even though MoLe does not offer a single suggestion, the probability estimate associated with each guess dramatically reduces the search space for the attacker.	
 \end{frame}
 
 
@@ -527,7 +554,6 @@ Figures are taken from \cite{b1}.
 		
 		%The feature set includes various metrics such as width, height, and prominence of the $Z$-axis peak, mean, variance, max, min, skewness, and kurtosis for each of the 3-axis displacement, velocity, acceleration, and gyroscope rotation, the magnitude of acceleration/gyroscope, and the correlation of each pair between acceleration and gyroscope vectors.
 		%When the attacker's sensor data arrives, the same peak detection scheme is applied, and many candidate keystrokes and their features are obtained. The classifier identifies the validity of the keystroke and selects the maximum value of $Z$-axis acceleration to denote the timing of the key-press. An example of the classification result for the word "administrative" is shown in Figure \ref{baggedDecision}.
-		
 	\end{minipage}	
 \centering \tiny
 Figures are taken from \cite{b1}.
@@ -685,8 +711,7 @@ Figures are taken from \cite{b1}.
  	\pause 
  	\item Reconstructed sentence:
  	
- 	 \textbf{\alert{The most profound technologies are those that disappear.}}
-
+ 	 {\color{Green}{\textbf{The most profound technologies are those that disappear.}}}
 \end{itemize}
 \end{frame}
 
@@ -715,14 +740,21 @@ Figures are taken from \cite{b1}.
 
 \begin{frame}{Take Home Messages}
 
+
   % Keep the summary *very short*.
   \begin{itemize}
-  \item
-    The \alert{first main message} of your talk in one or two lines.
-  \item
-    The \alert{second main message} of your talk in one or two lines.
-  \item
-    Perhaps a \alert{third message}, but not more than that.
+  \item Wearable devices have gained significant
+  popularity due to their convenience and versatility, enabling
+  users to engage in various activities such as making payments,
+  monitoring health, and receiving notifications.
+  
+  \item The presentation introduced briefly threats to confidentiality, integrity and availability.
+  
+  \item The presentation summarized potential threats  posed by accelerometer and gyroscope data collected by  wearables.
+  
+  \item The presentation delved
+  into the findings of a research paper that examines the vulnerabilities associated with analyzing motion sensor data to
+  decipher keyboard inputs.
   \end{itemize}
 \end{frame}
 

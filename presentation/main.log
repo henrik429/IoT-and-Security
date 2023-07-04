@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.22)  2 JUL 2023 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.22)  4 JUL 2023 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,7 +210,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 
@@ -1075,32 +1078,32 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 69.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 6
-8.
+9.
  (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Trying to load font information for T1+fav on input line 68
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Trying to load font information for T1+fav on input line 69
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/arev/t1fav.fd
@@ -1164,7 +1167,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 68.
+Package hyperref Info: Link coloring OFF on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1177,9 +1180,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1196,39 +1199,39 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/zavm/m/n --> OT1/cmss/m/n on input line 68.
+(Font)                  OT1/zavm/m/n --> OT1/cmss/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/zavm/b/n --> OT1/cmss/b/n on input line 68.
+(Font)                  OT1/zavm/b/n --> OT1/cmss/b/n on input line 69.
 \symnumbers=\mathgroup9
 \sympureletters=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/fav/m/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 68.
+(Font)                  OT1/cmss/m/n --> T1/fav/m/n on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/zavm/b/n --> T1/fav/b/n on input line 68.
+(Font)                  OT1/zavm/b/n --> T1/fav/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/zavm/b/n --> T1/fav/b/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 68.
+(Font)                  OT1/zavm/b/n --> T1/fav/b/n on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  T1/fvm/m/n --> T1/fvm/m/n on input line 68.
+(Font)                  T1/fvm/m/n --> T1/fvm/m/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/fvm/b/n --> T1/fvm/m/n on input line 68.
+(Font)                  T1/fvm/b/n --> T1/fvm/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/fav/m/n --> T1/fav/b/n on input line 68.
+(Font)                  T1/fav/m/n --> T1/fav/b/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/fav/m/it --> T1/fav/b/it on input line 68.
+(Font)                  T1/fav/m/it --> T1/fav/b/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/fav/b/n on input line 68.
+(Font)                  OT1/cmss/b/n --> T1/fav/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/fav/b/n --> T1/fav/b/n on input line 68.
+(Font)                  T1/fav/b/n --> T1/fav/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/fav/m/n --> T1/fav/b/n on input line 68.
+(Font)                  T1/fav/m/n --> T1/fav/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/fav/m/it --> T1/fav/b/it on input line 68.
+(Font)                  T1/fav/m/it --> T1/fav/b/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/fvm/m/n --> T1/fvm/b/n on input line 68.
+(Font)                  T1/fvm/m/n --> T1/fvm/b/n on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1256,58 +1259,58 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count330
  (./main.nav)
-Overfull \hbox (1.58499pt too wide) in paragraph at lines 68--68
+Overfull \hbox (1.58499pt too wide) in paragraph at lines 69--69
 [][]\T1/fav/m/n/5 ,  
  []
 
 LaTeX Font Info:    Trying to load font information for OML+zavm on input line 
-72.
+73.
 (/usr/share/texlive/texmf-dist/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 
-72.
+73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 72.
+ 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 72.
+(Font)              scaled to size 8.64006pt on input line 73.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 72.
+(Font)              scaled to size 6.72005pt on input line 73.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 72.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+(Font)              scaled to size 4.80003pt on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 72.
+ 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 72.
+(Font)              scaled to size 8.64006pt on input line 73.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 72.
+(Font)              scaled to size 6.72005pt on input line 73.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 72.
-LaTeX Font Info:    Trying to load font information for U+zavm on input line 72
+(Font)              scaled to size 4.80003pt on input line 73.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 73
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
@@ -1325,19 +1328,19 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [2
 
  <./FULogo_RGB.pdf>]
-<imgs/smartwatches.png, id=159, 1881.0275pt x 477.785pt>
+<imgs/smartwatches.png, id=160, 1881.0275pt x 477.785pt>
 File: imgs/smartwatches.png Graphic file (type png)
 <use imgs/smartwatches.png>
-Package pdftex.def Info: imgs/smartwatches.png  used on input line 108.
+Package pdftex.def Info: imgs/smartwatches.png  used on input line 109.
 (pdftex.def)             Requested size: 256.0748pt x 65.03767pt.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 108.
+(Font)              scaled to size 7.68005pt on input line 109.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 108.
+(Font)              scaled to size 5.76004pt on input line 109.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 108.
+(Font)              scaled to size 7.68005pt on input line 109.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 108.
+(Font)              scaled to size 5.76004pt on input line 109.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
@@ -1348,7 +1351,7 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
  <./imgs/smartwatches.png>]
 File: imgs/smartwatches.png Graphic file (type png)
 <use imgs/smartwatches.png>
-Package pdftex.def Info: imgs/smartwatches.png  used on input line 108.
+Package pdftex.def Info: imgs/smartwatches.png  used on input line 109.
 (pdftex.def)             Requested size: 256.0748pt x 65.03767pt.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
@@ -1361,7 +1364,7 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 \openout4 = `main.vrb'.
 
  (./main.vrb
-<imgs/ASurveyofWearableDevicesandChallenges.png, id=223, 863.225pt x 180.675pt>
+<imgs/ASurveyofWearableDevicesandChallenges.png, id=224, 863.225pt x 180.675pt>
 
 File: imgs/ASurveyofWearableDevicesandChallenges.png Graphic file (type png)
 <use imgs/ASurveyofWearableDevicesandChallenges.png>
@@ -1398,7 +1401,7 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [8
 
-]
+] (./main.toc)
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1412,14 +1415,14 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [10
 
-] (./main.toc)
+]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [11
 
-]
+] (./main.toc)
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1441,20 +1444,34 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [14
 
 ]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+<imgs/Privacy Implications of Accelerometer Data A Review of Possible Inference
+s.png, id=531, 1013.7875pt x 277.035pt>
+File: imgs/Privacy Implications of Accelerometer Data A Review of Possible Infe
+rences.png Graphic file (type png)
+<use imgs/Privacy Implications of Accelerometer Data A Review of Possible Infer
+ences.png>
+Package pdftex.def Info: imgs/Privacy Implications of Accelerometer Data A Revi
+ew of Possible Inferences.png  used on input line 3.
+(pdftex.def)             Requested size: 332.89735pt x 90.96951pt.
+)
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [15
 
-]
+ <./imgs/Privacy Implications of Accelerometer Data A Review of Possible Infere
+nces.png>]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [16
 
-] (./main.toc)
+]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1476,27 +1493,13 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [19
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-<imgs/Privacy Implications of Accelerometer Data A Review of Possible Inference
-s.png, id=671, 1013.7875pt x 277.035pt>
-File: imgs/Privacy Implications of Accelerometer Data A Review of Possible Infe
-rences.png Graphic file (type png)
-<use imgs/Privacy Implications of Accelerometer Data A Review of Possible Infer
-ences.png>
-Package pdftex.def Info: imgs/Privacy Implications of Accelerometer Data A Revi
-ew of Possible Inferences.png  used on input line 3.
-(pdftex.def)             Requested size: 332.89735pt x 90.96951pt.
-)
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [20
 
- <./imgs/Privacy Implications of Accelerometer Data A Review of Possible Infere
-nces.png>]
+]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1525,13 +1528,19 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [24
 
 ]
+<imgs/MoLePaper.png, id=816, 1013.7875pt x 243.91125pt>
+File: imgs/MoLePaper.png Graphic file (type png)
+<use imgs/MoLePaper.png>
+Package pdftex.def Info: imgs/MoLePaper.png  used on input line 436.
+(pdftex.def)             Requested size: 332.89735pt x 80.09273pt.
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [25
 
-]
+ <./imgs/MoLePaper.png>]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1546,40 +1555,78 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [27
 
 ]
+<imgs/watchMovement.png, id=904, 510.90875pt x 191.71625pt>
+File: imgs/watchMovement.png Graphic file (type png)
+<use imgs/watchMovement.png>
+Package pdftex.def Info: imgs/watchMovement.png  used on input line 506.
+(pdftex.def)             Requested size: 163.12152pt x 61.21002pt.
+<imgs/mobicom.png, id=905, 528.97626pt x 307.1475pt>
+File: imgs/mobicom.png Graphic file (type png)
+<use imgs/mobicom.png>
+Package pdftex.def Info: imgs/mobicom.png  used on input line 506.
+(pdftex.def)             Requested size: 163.12152pt x 94.71326pt.
+<imgs/displacement.png, id=906, 532.99126pt x 329.23pt>
+File: imgs/displacement.png Graphic file (type png)
+<use imgs/displacement.png>
+Package pdftex.def Info: imgs/displacement.png  used on input line 506.
+(pdftex.def)             Requested size: 163.12152pt x 100.75911pt.
+<imgs/displacement2.png, id=907, 634.37pt x 374.39874pt>
+File: imgs/displacement2.png Graphic file (type png)
+<use imgs/displacement2.png>
+Package pdftex.def Info: imgs/displacement2.png  used on input line 506.
+(pdftex.def)             Requested size: 163.12152pt x 96.27307pt.
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [28
 
-]
+ <./imgs/watchMovement.png> <./imgs/mobicom.png> <./imgs/displacement.png> <./i
+mgs/displacement2.png>]
+<imgs/moleOverview.png, id=943, 955.57pt x 452.69125pt>
+File: imgs/moleOverview.png Graphic file (type png)
+<use imgs/moleOverview.png>
+Package pdftex.def Info: imgs/moleOverview.png  used on input line 523.
+(pdftex.def)             Requested size: 332.89735pt x 157.7052pt.
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [29
 
-]
-<imgs/MoLePaper.png, id=956, 1013.7875pt x 243.91125pt>
-File: imgs/MoLePaper.png Graphic file (type png)
-<use imgs/MoLePaper.png>
-Package pdftex.def Info: imgs/MoLePaper.png  used on input line 403.
-(pdftex.def)             Requested size: 332.89735pt x 80.09273pt.
-
+ <./imgs/moleOverview.png>]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [30
 
- <./imgs/MoLePaper.png>]
+]
+<imgs/peakdetection.png, id=1002, 522.95375pt x 304.13625pt>
+File: imgs/peakdetection.png Graphic file (type png)
+<use imgs/peakdetection.png>
+Package pdftex.def Info: imgs/peakdetection.png  used on input line 560.
+(pdftex.def)             Requested size: 163.12152pt x 94.86598pt.
+<imgs/baggedDecision.png, id=1003, 529.98pt x 306.14375pt>
+File: imgs/baggedDecision.png Graphic file (type png)
+<use imgs/baggedDecision.png>
+Package pdftex.def Info: imgs/baggedDecision.png  used on input line 560.
+(pdftex.def)             Requested size: 163.12152pt x 94.22623pt.
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [31
 
-]
+ <./imgs/peakdetection.png> <./imgs/baggedDecision.png>]
+File: imgs/moleOverview.png Graphic file (type png)
+<use imgs/moleOverview.png>
+Package pdftex.def Info: imgs/moleOverview.png  used on input line 576.
+(pdftex.def)             Requested size: 284.52756pt x 134.7861pt.
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1587,6 +1634,15 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [32
 
 ]
+File: imgs/moleOverview.png Graphic file (type png)
+<use imgs/moleOverview.png>
+Package pdftex.def Info: imgs/moleOverview.png  used on input line 592.
+(pdftex.def)             Requested size: 284.52756pt x 134.7861pt.
+
+Overfull \vbox (9.1412pt too high) detected at line 592
+ []
+
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1594,26 +1650,11 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [33
 
 ]
-<imgs/watchMovement.png, id=1074, 510.90875pt x 191.71625pt>
-File: imgs/watchMovement.png Graphic file (type png)
-<use imgs/watchMovement.png>
-Package pdftex.def Info: imgs/watchMovement.png  used on input line 477.
-(pdftex.def)             Requested size: 163.12152pt x 61.21002pt.
-<imgs/mobicom.png, id=1075, 528.97626pt x 307.1475pt>
-File: imgs/mobicom.png Graphic file (type png)
-<use imgs/mobicom.png>
-Package pdftex.def Info: imgs/mobicom.png  used on input line 477.
-(pdftex.def)             Requested size: 163.12152pt x 94.71326pt.
-<imgs/displacement.png, id=1076, 532.99126pt x 329.23pt>
-File: imgs/displacement.png Graphic file (type png)
-<use imgs/displacement.png>
-Package pdftex.def Info: imgs/displacement.png  used on input line 477.
-(pdftex.def)             Requested size: 163.12152pt x 100.75911pt.
-<imgs/displacement2.png, id=1077, 634.37pt x 374.39874pt>
-File: imgs/displacement2.png Graphic file (type png)
-<use imgs/displacement2.png>
-Package pdftex.def Info: imgs/displacement2.png  used on input line 477.
-(pdftex.def)             Requested size: 163.12152pt x 96.27307pt.
+<imgs/pointCloudFitting.png, id=1095, 862.22125pt x 240.9pt>
+File: imgs/pointCloudFitting.png Graphic file (type png)
+<use imgs/pointCloudFitting.png>
+Package pdftex.def Info: imgs/pointCloudFitting.png  used on input line 601.
+(pdftex.def)             Requested size: 332.89735pt x 93.0096pt.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
@@ -1621,13 +1662,11 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [34
 
- <./imgs/watchMovement.png> <./imgs/mobicom.png> <./imgs/displacement.png> <./i
-mgs/displacement2.png>]
-<imgs/moleOverview.png, id=1112, 955.57pt x 452.69125pt>
+ <./imgs/pointCloudFitting.png>]
 File: imgs/moleOverview.png Graphic file (type png)
 <use imgs/moleOverview.png>
-Package pdftex.def Info: imgs/moleOverview.png  used on input line 496.
-(pdftex.def)             Requested size: 332.89735pt x 157.7052pt.
+Package pdftex.def Info: imgs/moleOverview.png  used on input line 617.
+(pdftex.def)             Requested size: 284.52756pt x 134.7861pt.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
@@ -1635,7 +1674,7 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [35
 
- <./imgs/moleOverview.png>]
+]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1643,29 +1682,13 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [36
 
 ]
-<imgs/peakdetection.png, id=1172, 522.95375pt x 304.13625pt>
-File: imgs/peakdetection.png Graphic file (type png)
-<use imgs/peakdetection.png>
-Package pdftex.def Info: imgs/peakdetection.png  used on input line 534.
-(pdftex.def)             Requested size: 163.12152pt x 94.86598pt.
-<imgs/baggedDecision.png, id=1173, 529.98pt x 306.14375pt>
-File: imgs/baggedDecision.png Graphic file (type png)
-<use imgs/baggedDecision.png>
-Package pdftex.def Info: imgs/baggedDecision.png  used on input line 534.
-(pdftex.def)             Requested size: 163.12152pt x 94.22623pt.
-
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [37
 
- <./imgs/peakdetection.png> <./imgs/baggedDecision.png>]
-File: imgs/moleOverview.png Graphic file (type png)
-<use imgs/moleOverview.png>
-Package pdftex.def Info: imgs/moleOverview.png  used on input line 550.
-(pdftex.def)             Requested size: 284.52756pt x 134.7861pt.
-
+]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1673,14 +1696,11 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [38
 
 ]
-File: imgs/moleOverview.png Graphic file (type png)
-<use imgs/moleOverview.png>
-Package pdftex.def Info: imgs/moleOverview.png  used on input line 566.
-(pdftex.def)             Requested size: 284.52756pt x 134.7861pt.
-
-Overfull \vbox (9.1412pt too high) detected at line 566
- []
-
+<imgs/cdfInferTyped.png, id=1242, 522.95375pt x 304.13625pt>
+File: imgs/cdfInferTyped.png Graphic file (type png)
+<use imgs/cdfInferTyped.png>
+Package pdftex.def Info: imgs/cdfInferTyped.png  used on input line 670.
+(pdftex.def)             Requested size: 199.16928pt x 115.83286pt.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
@@ -1688,12 +1708,12 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [39
 
-]
-<imgs/pointCloudFitting.png, id=1265, 862.22125pt x 240.9pt>
-File: imgs/pointCloudFitting.png Graphic file (type png)
-<use imgs/pointCloudFitting.png>
-Package pdftex.def Info: imgs/pointCloudFitting.png  used on input line 575.
-(pdftex.def)             Requested size: 332.89735pt x 93.0096pt.
+ <./imgs/cdfInferTyped.png>]
+<imgs/RankOfAverage.png, id=1274, 519.9425pt x 296.10625pt>
+File: imgs/RankOfAverage.png Graphic file (type png)
+<use imgs/RankOfAverage.png>
+Package pdftex.def Info: imgs/RankOfAverage.png  used on input line 697.
+(pdftex.def)             Requested size: 199.16928pt x 113.42517pt.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
@@ -1701,11 +1721,12 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [40
 
- <./imgs/pointCloudFitting.png>]
-File: imgs/moleOverview.png Graphic file (type png)
-<use imgs/moleOverview.png>
-Package pdftex.def Info: imgs/moleOverview.png  used on input line 591.
-(pdftex.def)             Requested size: 284.52756pt x 134.7861pt.
+ <./imgs/RankOfAverage.png>]
+<imgs/sentence.png, id=1305, 1002.74625pt x 191.71625pt>
+File: imgs/sentence.png Graphic file (type png)
+<use imgs/sentence.png>
+Package pdftex.def Info: imgs/sentence.png  used on input line 716.
+(pdftex.def)             Requested size: 332.89735pt x 63.64685pt.
 
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
@@ -1713,7 +1734,12 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 
 [41
 
-]
+ <./imgs/sentence.png>]
+File: imgs/sentence.png Graphic file (type png)
+<use imgs/sentence.png>
+Package pdftex.def Info: imgs/sentence.png  used on input line 716.
+(pdftex.def)             Requested size: 332.89735pt x 63.64685pt.
+
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
@@ -1735,80 +1761,15 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [44
 
 ]
-<imgs/cdfInferTyped.png, id=1412, 522.95375pt x 304.13625pt>
-File: imgs/cdfInferTyped.png Graphic file (type png)
-<use imgs/cdfInferTyped.png>
-Package pdftex.def Info: imgs/cdfInferTyped.png  used on input line 644.
-(pdftex.def)             Requested size: 199.16928pt x 115.83286pt.
-
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
 [45
 
- <./imgs/cdfInferTyped.png>]
-<imgs/RankOfAverage.png, id=1443, 519.9425pt x 296.10625pt>
-File: imgs/RankOfAverage.png Graphic file (type png)
-<use imgs/RankOfAverage.png>
-Package pdftex.def Info: imgs/RankOfAverage.png  used on input line 671.
-(pdftex.def)             Requested size: 199.16928pt x 113.42517pt.
-
-Overfull \hbox (1.58499pt too wide) has occurred while \output is active
-[][]\T1/fav/m/n/5 , 
- []
-
-[46
-
- <./imgs/RankOfAverage.png>]
-<imgs/sentence.png, id=1475, 1002.74625pt x 191.71625pt>
-File: imgs/sentence.png Graphic file (type png)
-<use imgs/sentence.png>
-Package pdftex.def Info: imgs/sentence.png  used on input line 691.
-(pdftex.def)             Requested size: 332.89735pt x 63.64685pt.
-
-Overfull \hbox (1.58499pt too wide) has occurred while \output is active
-[][]\T1/fav/m/n/5 , 
- []
-
-[47
-
- <./imgs/sentence.png>]
-File: imgs/sentence.png Graphic file (type png)
-<use imgs/sentence.png>
-Package pdftex.def Info: imgs/sentence.png  used on input line 691.
-(pdftex.def)             Requested size: 332.89735pt x 63.64685pt.
-
-Overfull \hbox (1.58499pt too wide) has occurred while \output is active
-[][]\T1/fav/m/n/5 , 
- []
-
-[48
-
 ]
-Overfull \hbox (1.58499pt too wide) has occurred while \output is active
-[][]\T1/fav/m/n/5 , 
- []
-
-[49
-
-]
-Overfull \hbox (1.58499pt too wide) has occurred while \output is active
-[][]\T1/fav/m/n/5 , 
- []
-
-[50
-
-]
-Overfull \hbox (1.58499pt too wide) has occurred while \output is active
-[][]\T1/fav/m/n/5 , 
- []
-
-[51
-
-]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 77
-1.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 80
+3.
  (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
@@ -1816,14 +1777,14 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
-[52
+[46
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 [][]\T1/fav/m/n/5 , 
  []
 
-[53
+[47
 
 
 ]
@@ -1836,33 +1797,45 @@ Overfull \hbox (1.58499pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 773.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 773.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 805.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 805.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 773.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 773.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4E31D71A05D02AA0DBE9DEE3AD7A3B60;1930.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 805.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 805.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: ECA0E5C72474596D3568A229B6775860;2210
+(rerunfilecheck)             After:  4934BA9555C06604A3E72D0A79D0DB9F;2210.
  ) 
 Here is how much of TeX's memory you used:
- 25695 strings out of 483183
- 445363 string characters out of 5966292
- 842730 words of memory out of 5000000
- 39979 multiletter control sequences out of 15000+600000
- 590910 words of font info for 100 fonts, out of 8000000 for 9000
+ 25746 strings out of 483183
+ 446342 string characters out of 5966292
+ 846681 words of memory out of 5000000
+ 40036 multiletter control sequences out of 15000+600000
+ 590506 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  58i,16n,67p,1021b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/arev/ArevSans-Oblique.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/mathdesign/mdbch/md-chb7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/mathdesign/mdbch/md-chbma.pfb>
-Output written on main.pdf (53 pages, 2887334 bytes).
+pdfTeX warning (dest): name{Navigation48} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline1.6.1.47} has been referenced but does not e
+xist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/mathdesign/mdbch/md-chb7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/mathdesign/mdbch/md-chbma.pfb>
+Output written on main.pdf (47 pages, 2865683 bytes).
 PDF statistics:
- 1741 PDF objects out of 2073 (max. 8388607)
- 1599 compressed objects within 16 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 1571 PDF objects out of 1728 (max. 8388607)
+ 1437 compressed objects within 15 object streams
+ 116 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
